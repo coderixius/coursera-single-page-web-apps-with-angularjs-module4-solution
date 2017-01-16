@@ -30,7 +30,7 @@
 
       .state('items', {
         url: '/item/{categoryShortName}',
-        templateUrl: 'src/data/templates/items.template.html',
+        templateUrl: 'src/data/templates/main-items.template.html',
         controller: 'ItemsController as items'
       });
   }
